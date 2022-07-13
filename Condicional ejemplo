@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Condicionales {
+    public static double Valor_absoluto(double x){
+        double valor;
+        if(x>=0){
+            valor = x;
+        }else {
+            valor = -x;
+        }
+        return valor;    
+    } 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double x;
+        System.out.println("Ingrese un número: ");
+        x = sc.nextDouble();
+        System.out.println("El valor absoluto de "+x+" es "+Valor_absoluto(x));
+    }
+    
+}
