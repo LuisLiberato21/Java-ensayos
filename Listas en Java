@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Obra {
+    public static void main(String[] args){
+    List<Integer> Numeros;
+    
+    Numeros = new ArrayList<>();
+    Numeros.add(1);
+    Numeros.add(2);
+    Numeros.add(5);
+    Numeros.add(5);
+    Numeros.add(5);
+    Numeros.add(1);
+    Numeros.add(2);
+    Numeros.add(5);
+    Numeros.add(5);
+    Numeros.add(5);
+    System.out.println(Numeros);
+    
+    }
+}
